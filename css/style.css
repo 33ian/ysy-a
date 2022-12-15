@@ -83,6 +83,10 @@ main{
     margin: 10px
 }
 
+.bio div p{
+    margin: 20px;   
+}
+
 .quinto{
     margin: 50px;
     background-color: #000000a8;
@@ -106,10 +110,11 @@ main{
 
 .div-quinto p{
     display: inline-block;
-    font-size: 2rem;
-    text-align: right;
+    font-size: 1.7rem;
+    text-align: left;
     /*background-color: #f1740085;*/
     width: 50%;
+    margin: 10px;
 }
 
 .pie-video{
