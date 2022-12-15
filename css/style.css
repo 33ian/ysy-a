@@ -316,6 +316,9 @@ footer p{
     footer{
         flex-direction: column;
     }
+    .bio div p{
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width:630px){
@@ -327,6 +330,12 @@ footer p{
 @media screen and (max-width:600px){
     .bio div p{
         font-size: 40px;
+    }
+    .div-quinto p{
+        font-size: 1rem;
+    }
+    .pie-video{
+        font-size: 0.8rem;
     }
 }
 
