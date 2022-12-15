@@ -352,7 +352,12 @@ footer div p{
         flex-direction: column;
         text-align: center;
     }
+    .quinto{
+        width: 100%;
+        margin: 5px;
+    }
 }
+
 
 
 
