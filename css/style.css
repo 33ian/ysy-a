@@ -22,6 +22,7 @@ header nav img{
     width: 50px;
     height: 50px;
     margin: 10px;
+    border-radius: 15%;
 }
 
 header nav{
@@ -35,6 +36,12 @@ header nav ul li{
     margin: 5px 10px 5px 10px;
     font-size: large;
     font-family: 'Poppins', sans-serif;
+    transition-property: scale;
+    transition-duration: 300ms;
+}
+
+nav ul li:hover{
+    scale: 1.2;
 }
 
 header nav ul li a{
@@ -69,12 +76,27 @@ main{
     box-shadow: 32px 26px 37px -12px rgba(0,0,0,0.62);
 -webkit-box-shadow: 32px 26px 37px -12px rgba(0,0,0,0.62);
 -moz-box-shadow: 32px 26px 37px -12px rgba(0,0,0,0.62);
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: initial;
+    animation-iteration-count: initial;
 }
+
+/*KEYFRAME*/
+@keyframes fadein{
+    from{
+opacity: 0%;
+    }
+    to{
+opacity: 100%;
+    }
+}
+
+/*KEYFRAME*/
 
 .hero div h1{
     font-size: 5rem;
     font-style: italic;
-    
 }
 
 .bio{
@@ -84,7 +106,12 @@ main{
 }
 
 .bio div p{
-    margin: 20px;   
+    margin: 20px;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: initial;
+    animation-iteration-count: initial;   
 }
 
 .quinto{
@@ -142,7 +169,17 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
 }
+
+.galeria img:hover{
+    scale: 1.01;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+}
+
 
 .img-2{
     grid-column: 2/4;
@@ -237,6 +274,12 @@ footer img{
     width: 50px;
     height: 50px;
     margin: 5px;
+    transition-property: scale;
+    transition-duration: 300ms;
+}
+
+footer img:hover{
+    scale: 1.2;
 }
 
 .redes{
