@@ -41,7 +41,7 @@ header nav ul li{
 }
 
 nav ul li:hover{
-    scale: 1.2;
+    scale: 1.15;
 }
 
 header nav ul li a{
@@ -235,6 +235,7 @@ opacity: 100%;
 .albumes li{
     background-color: #000000a8;
     padding: 5px 10px 5px 10px;
+    border-radius: 15%;
 }
 
 .gira{
@@ -257,6 +258,7 @@ opacity: 100%;
 .años li{
     background-color: #000000a8;
     padding: 5px 10px 5px 10px;
+    border-radius: 15%;
 }
 
 /*footer*/
@@ -411,7 +413,7 @@ footer div p{
     }
     .quinto{
         width: 100%;
-        margin: 5px;
+        margin: 5px 0px 5px 0px;
     }
 }
 
