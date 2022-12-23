@@ -8,6 +8,7 @@
 
 body{
     background-color: #353A47;
+
 }
 
 /*HEADER*/
@@ -25,10 +26,8 @@ header nav img{
     border-radius: 15%;
 }
 
-header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar-collapse{
+    flex-grow: initial;
 }
 
 header nav ul li{
@@ -38,6 +37,7 @@ header nav ul li{
     font-family: 'Poppins', sans-serif;
     transition-property: scale;
     transition-duration: 300ms;
+
 }
 
 nav ul li:hover{
@@ -139,7 +139,6 @@ opacity: 100%;
     display: inline-block;
     font-size: 1.7rem;
     text-align: left;
-    /*background-color: #f1740085;*/
     width: 50%;
     margin: 10px;
 }
@@ -229,7 +228,6 @@ opacity: 100%;
     align-items: flex-end;
     list-style: none;
     font-size: 2rem;
-    /*background-color: #000000a8;*/
 }
 
 .albumes li{
