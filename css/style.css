@@ -244,7 +244,7 @@ opacity: 100%;
     margin: 10px;
 }
 
-.años{
+.anos{
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -253,7 +253,7 @@ opacity: 100%;
     font-size: 2rem;
 }
 
-.años li{
+.anos li{
     background-color: #000000a8;
     padding: 5px 10px 5px 10px;
     border-radius: 15%;
@@ -320,10 +320,10 @@ footer p{
         .años{
             display: none;
         }
+    }
 
 
 @media screen and (max-width:900px){
-    }
     .pie-video{
         margin: 10px;
         text-align: start;
@@ -414,7 +414,3 @@ footer div p{
         margin: 5px 0px 5px 0px;
     }
 }
-
-
-
-
