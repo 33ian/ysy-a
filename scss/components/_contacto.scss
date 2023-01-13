@@ -1,0 +1,18 @@
+/*CONTACTO*/
+
+.ask{
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    .form{
+        text-align: center;
+        background-color: #000000a8;
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+    }
+}

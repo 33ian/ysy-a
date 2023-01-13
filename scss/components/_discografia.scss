@@ -1,0 +1,27 @@
+/*DISCOGRAFIA*/
+
+section{
+    div{
+        .albumes{
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                list-style: none;
+                font-size: 2rem;
+            li{
+                    background-color: #000000a8;
+                    padding: 5px 10px 5px 10px;
+                    border-radius: 15%;
+            }
+        }
+    }
+    .spotify{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 10px;
+            background-color: #000000a8;
+            padding: 10px;
+    }
+}

@@ -1,0 +1,120 @@
+/*MEDIAQUERYS*/
+
+@media screen and (max-width:1200px){
+    body main .quinto .videos{
+        grid-template-columns: 400px;
+        grid-template-rows: auto;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        justify-content: center;}
+    body main .quinto{
+            text-align: center;
+            
+        }
+        body main .quinto .div-quinto{
+            flex-direction: column;
+            
+        }
+        body main .quinto .div-quinto p{
+            text-align: center;
+            font-size: 25px;
+            width: 100%;}
+        section div .albumes{
+            display: none;
+        }
+        section div .anos{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width:900px){
+        body main .quinto .pie-video{
+            margin: 10px;
+            text-align: start;
+            width: 100%;
+        }
+        body main .quinto .div-quinto iframe{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:850px){
+        .galeria{
+            grid-template-columns: 1fr 1fr;
+            
+        }
+        .galeria .img-8{
+            grid-column: span 1;
+        }
+        .galeria .img-2{
+            grid-row: span 1;
+            grid-column: span 1;
+        }
+    }
+
+    @media screen and (max-width:800px){
+        body main .quinto .div-quinto iframe{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:770px){
+        footer{
+            flex-direction: column;
+        }
+        body main .bio div p{
+            font-size: 45px;
+        }
+    }
+
+    @media screen and (max-width:630px){
+        .galeria{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media screen and (max-width:600px){
+        body main .bio div p{
+            font-size: 40px;
+        }
+        body main .quinto .div-quinto p{
+            font-size: 1rem;
+        }
+        body main .quinto .pie-video{
+            font-size: 0.8rem;
+        }
+    }
+
+    @media screen and (max-width:550px){
+        header nav{
+            flex-direction: column;}
+            body main .quinto .videos{
+                grid-template-columns: auto;
+            }
+        body main .quinto .videos iframe{
+            width: 100%;
+        }
+        footer div p{
+            text-align: center;
+            width: 90%;}
+        footer .redes a img{
+            width: 40px;
+            height: 40px;
+            }
+        }
+
+        @media screen and (max-width:480px){
+            body main .bio div p{
+                font-size: 30px;
+            }
+            header nav .navbar-collapse ul li{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            body main .quinto{
+                width: 100%;
+                margin: 5px 0px 5px 0px;
+            }
+        }
