@@ -1,1 +1,18 @@
-/*VARIABLES*/
+/*-----------------------------------VARIABLES-----------------------------------*/
+
+/*LISTA*/
+
+$colores:
+#353A47,
+#fffcf9,
+#f1740085,
+#000000a8,
+#f17300;
+
+/*EXTEND*/
+
+%sombra {
+        box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+}

@@ -4,8 +4,15 @@
   padding: 0;
   box-sizing: border-box; }
 
-/*VARIABLES*/
-/*HEADER*/
+/*-----------------------------------VARIABLES-----------------------------------*/
+/*LISTA*/
+/*EXTEND*/
+body main .hero div, .galeria img:hover {
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75); }
+
+/*-----------------------------------HEADER-----------------------------------*/
 header {
   background-color: #353A47;
   position: sticky;
@@ -31,7 +38,7 @@ header {
         text-decoration: none;
         color: #fffcf9; }
 
-/*INDEX*/
+/*-----------------------------------INDEX-----------------------------------*/
 body {
   background-color: #353A47; }
   body main {
@@ -52,9 +59,6 @@ body {
       body main .hero div {
         background-color: #f1740085;
         padding: 0px 15px 0px;
-        box-shadow: 32px 26px 37px -12px rgba(0, 0, 0, 0.62);
-        -webkit-box-shadow: 32px 26px 37px -12px rgba(0, 0, 0, 0.62);
-        -moz-box-shadow: 32px 26px 37px -12px rgba(0, 0, 0, 0.62);
         animation-duration: 1s;
         animation-timing-function: ease;
         animation-direction: initial;
@@ -108,7 +112,7 @@ body {
   to {
     opacity: 100%; } }
 
-/*GALERIA*/
+/*-----------------------------------GALERIA-----------------------------------*/
 .galeria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -121,19 +125,19 @@ body {
     transition-duration: 500ms;
     transition-timing-function: ease; }
     .galeria img:hover {
-      scale: 1.01;
-      box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75); }
-  .galeria .img-2 {
-    grid-column: 2/4; }
-  .galeria .img-8 {
-    grid-column: span 2;
-    grid-row: span 2; }
-  .galeria .img-9 {
-    grid-row: 3/5; }
+      scale: 1.01; }
 
-/*DISCOGRAFIA*/
+.img-2 {
+  grid-column: 2/4; }
+
+.img-8 {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+.img-9 {
+  grid-row: 3/5; }
+
+/*-----------------------------------DISCOGRAFIA-----------------------------------*/
 section div .albumes {
   display: flex;
   justify-content: space-around;
@@ -154,7 +158,7 @@ section .spotify {
   background-color: #000000a8;
   padding: 10px; }
 
-/*TOUR*/
+/*-----------------------------------TOUR-----------------------------------*/
 section div .anos {
   list-style: none;
   display: flex;
@@ -174,7 +178,7 @@ section .gira {
   flex-wrap: wrap;
   margin: 10px; }
 
-/*CONTACTO*/
+/*-----------------------------------CONTACTO-----------------------------------*/
 .ask {
   text-align: center;
   font-size: 1rem;
@@ -190,7 +194,7 @@ section .gira {
     margin: 20px;
     padding: 10px; }
 
-/*FOOTER*/
+/*-----------------------------------FOOTER-----------------------------------*/
 footer {
   font-family: 'Poppins', sans-serif;
   background-color: #f17300;
@@ -213,7 +217,7 @@ footer {
       footer .redes a img:hover {
         scale: 1.2; }
 
-/*MEDIAQUERYS*/
+/*-----------------------------------MEDIAQUERYS-----------------------------------*/
 @media screen and (max-width: 1200px) {
   body main .quinto .videos {
     grid-template-columns: 400px;

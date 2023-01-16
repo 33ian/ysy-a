@@ -1,4 +1,4 @@
-/*GALERIA*/
+/*-----------------------------------GALERIA-----------------------------------*/
 
 .galeria{
     display: grid;
@@ -13,9 +13,8 @@
         transition-timing-function: ease;
         &:hover{
             scale: 1.01;
-            box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+            @extend %sombra;
+    }
         }
     }
     .img-2{
@@ -28,4 +27,3 @@
     .img-9{
         grid-row: 3/5;
     }
-}

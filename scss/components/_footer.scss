@@ -1,8 +1,8 @@
-/*FOOTER*/
+/*-----------------------------------FOOTER-----------------------------------*/
 
 footer{
     font-family: 'Poppins', sans-serif;
-    background-color: #f17300;
+    background-color: nth($colores , 5);
     display: flex;
     justify-content: space-between;
     align-items: center;

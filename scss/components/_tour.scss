@@ -1,4 +1,4 @@
-/*TOUR*/
+/*-----------------------------------TOUR-----------------------------------*/
 
 section{
     div{
@@ -10,7 +10,7 @@ section{
             flex-wrap: wrap;
             font-size: 2rem;
             li{
-                background-color: #000000a8;
+                background-color: nth($colores , 4);
                 padding: 5px 10px 5px 10px;
                 border-radius: 15%;
             }

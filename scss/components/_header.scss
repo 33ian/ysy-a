@@ -1,7 +1,7 @@
-/*HEADER*/
+/*-----------------------------------HEADER-----------------------------------*/
 
 header{
-    background-color: #353A47;
+    background-color: nth($colores , 1);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -32,7 +32,7 @@ header{
                         }
                         a{
                             text-decoration: none;
-                            color: #fffcf9;
+                            color: nth($colores , 2);
                         }
                     }
                 }

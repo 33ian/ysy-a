@@ -1,4 +1,4 @@
-/*CONTACTO*/
+/*-----------------------------------CONTACTO-----------------------------------*/
 
 .ask{
     text-align: center;
@@ -10,7 +10,7 @@
     justify-content: center;
     .form{
         text-align: center;
-        background-color: #000000a8;
+        background-color: nth($colores , 4 );
         display: inline-block;
         margin: 20px;
         padding: 10px;
