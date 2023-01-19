@@ -12,6 +12,7 @@ body main .hero div, .galeria img:hover {
   -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75); }
 
+/*MIXIN*/
 /*-----------------------------------HEADER-----------------------------------*/
 header {
   background-color: #353A47;
@@ -52,10 +53,10 @@ body {
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover;
+      text-align: center;
       display: flex;
       justify-content: center;
-      align-items: flex-end;
-      text-align: center; }
+      align-items: flex-end; }
       body main .hero div {
         background-color: #f1740085;
         padding: 0px 15px 0px;
@@ -186,7 +187,8 @@ section .gira {
 
 .formulario {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .formulario .form {
     text-align: center;
     background-color: #000000a8;
@@ -202,7 +204,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 150px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
   footer div p {
     text-align: left;
     margin: 15px; }

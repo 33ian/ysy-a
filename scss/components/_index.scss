@@ -13,10 +13,8 @@ body{
             background-position: top;
             background-repeat: no-repeat;
             background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
             text-align: center;
+            @include flex (flex, center, flex-end);
             div{
                 background-color: nth($colores , 3);
                 padding: 0px 15px 0px;
@@ -54,9 +52,7 @@ body{
                 font-size: 3rem;
             }
             .div-quinto{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+                @include flex (flex, space-between, center);
                 p{
                     display: inline-block;
                     font-size: 1.7rem;

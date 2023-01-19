@@ -6,8 +6,7 @@
     margin: 5px;
 }
 .formulario{
-    display: flex;
-    justify-content: center;
+    @include flex (flex, center, center);
     .form{
         text-align: center;
         background-color: nth($colores , 4 );

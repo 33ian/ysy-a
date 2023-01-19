@@ -3,9 +3,7 @@
 section{
     div{
         .albumes{
-                display: flex;
-                justify-content: space-around;
-                align-items: flex-end;
+                @include flex (flex, space-around, flex-end);
                 list-style: none;
                 font-size: 2rem;
             li{
@@ -16,9 +14,7 @@ section{
         }
     }
     .spotify{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include flex (flex, space-around, center);
             flex-wrap: wrap;
             margin: 10px;
             background-color: nth($colores , 4);

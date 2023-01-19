@@ -4,9 +4,7 @@ section{
     div{
         .anos{
             list-style: none;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include flex (flex, space-around, center);
             flex-wrap: wrap;
             font-size: 2rem;
             li{
@@ -17,9 +15,7 @@ section{
         }
     }
     .gira{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include flex (flex, space-around, center);
         flex-wrap: wrap;
         margin: 10px;
     }

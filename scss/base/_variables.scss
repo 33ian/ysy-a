@@ -16,3 +16,11 @@ $colores:
         -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
 }
+
+/*MIXIN*/
+
+@mixin flex ($flex, $justify, $align){
+        display: $flex;
+        justify-content: $justify;
+        align-items: $align;
+}

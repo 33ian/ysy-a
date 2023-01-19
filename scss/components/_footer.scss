@@ -3,11 +3,13 @@
 footer{
     font-family: 'Poppins', sans-serif;
     background-color: nth($colores , 5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (flex, space-between, center);
     height: 150px;
     margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
     div{
         p{
             text-align: left;
