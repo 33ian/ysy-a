@@ -19,12 +19,31 @@
         body main .quinto .div-quinto p{
             text-align: center;
             font-size: 25px;
+            height: 240px;
             width: 100%;}
         section div .albumes{
             display: none;
         }
         section div .anos{
             display: none;
+        }
+
+        body main .bio div{
+            @include flex (flex, center, start);
+        }
+
+        body main .bio div p{
+            width: 80%;
+            
+        }
+    }
+
+    @media screen and (max-width:1050px){
+        body main .bio{
+            font-size: 1.5rem;
+        }
+        body main .quinto .div-quinto p{
+            height: 100%;
         }
     }
 
@@ -64,7 +83,7 @@
             flex-direction: column;
         }
         body main .bio div p{
-            font-size: 45px;
+            font-size: 1.5rem;
         }
     }
 
@@ -76,7 +95,7 @@
 
     @media screen and (max-width:600px){
         body main .bio div p{
-            font-size: 40px;
+            font-size: 1.5rem;
         }
         body main .quinto .div-quinto p{
             font-size: 1rem;

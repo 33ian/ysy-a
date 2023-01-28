@@ -34,7 +34,7 @@ header {
       transition-property: scale;
       transition-duration: 300ms; }
       header nav .navbar-collapse ul li:hover {
-        scale: 1.15; }
+        scale: 1.12; }
       header nav .navbar-collapse ul li a {
         text-decoration: none;
         color: #fffcf9; }
@@ -68,11 +68,15 @@ body {
           font-size: 5rem;
           font-style: italic; }
     body main .bio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      font-size: 3rem;
+      font-size: 2.7rem;
       margin: 10px; }
       body main .bio div p {
         margin: 20px;
+        width: 1000px;
         animation-name: fadein;
         animation-duration: 1.5s;
         animation-timing-function: linear;
@@ -93,14 +97,15 @@ body {
           font-size: 1.7rem;
           text-align: left;
           width: 50%;
-          margin: 10px; }
+          margin: 10px;
+          height: 400px; }
           body main .quinto .div-quinto p .enlace {
             text-decoration: solid;
             color: #f17300; }
       body main .quinto .pie-video {
         text-align: left;
         font-size: 1rem;
-        width: 700px; }
+        width: 100%; }
       body main .quinto .videos {
         display: grid;
         grid-template-columns: repeat(3, 400px);
@@ -190,6 +195,9 @@ section .gira {
   justify-content: center;
   align-items: center; }
   .formulario .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #000000a8;
     display: inline-block;
@@ -238,11 +246,24 @@ footer {
   body main .quinto .div-quinto p {
     text-align: center;
     font-size: 25px;
+    height: 240px;
     width: 100%; }
   section div .albumes {
     display: none; }
   section div .anos {
-    display: none; } }
+    display: none; }
+  body main .bio div {
+    display: flex;
+    justify-content: center;
+    align-items: start; }
+  body main .bio div p {
+    width: 80%; } }
+
+@media screen and (max-width: 1050px) {
+  body main .bio {
+    font-size: 1.5rem; }
+  body main .quinto .div-quinto p {
+    height: 100%; } }
 
 @media screen and (max-width: 900px) {
   body main .quinto .pie-video {
@@ -269,7 +290,7 @@ footer {
   footer {
     flex-direction: column; }
   body main .bio div p {
-    font-size: 45px; } }
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 630px) {
   .galeria {
@@ -277,7 +298,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   body main .bio div p {
-    font-size: 40px; }
+    font-size: 1.5rem; }
   body main .quinto .div-quinto p {
     font-size: 1rem; }
   body main .quinto .pie-video {

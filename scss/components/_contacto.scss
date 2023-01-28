@@ -8,6 +8,7 @@
 .formulario{
     @include flex (flex, center, center);
     .form{
+        @include flex (flex, center, center);
         text-align: center;
         background-color: nth($colores , 4 );
         display: inline-block;
